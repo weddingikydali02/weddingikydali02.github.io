@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script><link href="https://weddingikydali02.github.io/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+<head>
+<title>Weding Digital</title>
+<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/weddingikydali02/weddingikydali02.github.io/main/iconwedding.png">
+<meta name="description" content="UNDANGAN ♡ 𝐼𝓀𝓎   &  𝒜𝓂𝑒𝓁 ♡ - DI Tempat">
+</head>
+<body>
+	
+   <div class="overlay">
+   	<img src="https://raw.githubusercontent.com/weddingikydali02/weddingikydali02.github.io/main/loading.gif" alt="loading" width="200" height="200">
+     <div class="loading-message">Membuka Undangan<br>Harap Tunggu yaa...</div>
+   </div>
+
+   <audio src="https://weddingikydali02.github.io/mylove.mp3" id="linkmp3" class="sembunyi"></audio>
+   
+   <section class="first">
+       <div class="wp"><img id="imgsatu" src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/bg1.png"></div>
+       <img id="first_stiker" class="stiker fade-in" src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/ks.png"/>
+       <h1 class="title"><img src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/name.png" alt="" width="370" height="140"></h1>
+       <p class="flip"><img src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/bukaundangan.png" alt="" width="88" height="88"></p>
+  </section>
+  
+  <section>
+      <div class="wp"><img id="imgdua" src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/bg2.jpg"/></div>
+      <h2 class="title"><i><h1 class="title"><img src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/pria.png" alt="" width="370" height="195"></h1></i></h2>
+      <p class="flip"><img src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/wanita.png" alt="" width="370" height="195"></p>
+  </section>
+  
+  <section>
+  	<div class="wp"><img id="imgtiga" src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/bg3.jpg"/></div>
+      <p id="teksnimasi">
+        <b>Atas Rahmat Tuhan Yang Maha Esa,<br>kami bermaksud mengundang anda di<br>Acara kami. Yang merupakan suatu kehormatan<br>Dan kebahagiaan bagi kami sekeluarga,<br>Apabila Bapak/Ibu/Saudara/i berkenan<br>Hadir dan memberikan doa restu<br>kepada kedua Mempelay</b>
+        <br><br><b><i>بسم الله الرحمن الرحيم</i></b>
+        <br><b>Minggu, 25 Februari 2060<br>
+          <br>Besar harapan kami jika Bapak/Ibu/Sahabat/Sdr/i<br>berkenan hadir pada acara ini. Atas perhatiannya<br>Terima Kasih</b></p>
+          
+  </section>
+  
+  <section>
+  	<div class="wp"><img id="imgempat" src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/bg4.jpg"/></div>
+      <h2 class="title"><i><img src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/akad.png" alt="" width="370" height="195"></i></h2>
+      <p class="slide-right"><b><img src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/resepsi.png" alt="" width="370" height="195"></b></p>
+      <div id="Tombol">
+       <a id="By" onClick="fungsimau()">Lihat Cerita Pasangan Ini</a>
+     </div>
+  </section>
+  
+  <section id="iniakhir">
+  	<div class="wp" id="wpakhir"><img src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/bg5.jpg"/></div>
+      <img id="stikerakhir" class="stiker fade-in" src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/kisah1.png"/>
+      <img id="stikerakhir2" style="display:none" src="https://raw.githubusercontent.com/Wedingikydali02/Themebiru.github.io/main/kisah2.png"/>
+      <h1 id="judulakhir"></h1>
+      <p id="kalimatakhir"></p>
+      <p id="palingakhir"></p>
+      <div id="TombolWA">
+       <a onClick="menuju()">WhatsApp ⌲</a>
+     </div>
+  </section>
+  
+  <div id="initom" class="menu">
+  <a class='tombol' onclick="tes()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/> </svg>
+  </a>
+  </div>
+
+<script>
+function fungsimau(){
+       fungsi=0;tes();
+       teksjudulakhir = "♡ 𝐼𝓀𝓎   &  𝒜𝓂𝑒𝓁 ♡";
+       tekskalimatakhir = "Amel adalah sosok wanita<br>dengan kemampuan bela diri tinggi.<br>yang bisa menghancurkan rembulan<br>Amel selalu siap membantu<br>bahkan menyelamatkan iki";
+}
+function fungsigamau(){
+       fungsi=0;tes();
+       teksjudulakhir = "";
+       tekskalimatakhir = "";
+}
+
+teksjudulakhir2 = "♡ 𝐼 𝐿𝑜𝓋𝑒 𝒴𝑜𝓊 ♡";
+tekspalingakhir = "♡𝐓𝐄𝐑𝐈𝐌𝐀 𝐊𝐀𝐒𝐈𝐇♡";
+  
+pesanwhatsapp = "Selamat Atas Pernikahannya, Semoga Sakina Mawadha Warohma";
+
+const body = document.querySelector("body"); initom.style="opacity:0;bottom:0;transition:none"; audio = new Audio('' + linkmp3.src); function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
+</script>
+<script src="https://malasid.github.io/html/maukahkamu.js"></script>
+</body>
+</html>
