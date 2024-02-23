@@ -1,1 +1,1 @@
-wedingikydali02.github.io
+https://weddingikydali02.github.io/Wedingcoklat/
